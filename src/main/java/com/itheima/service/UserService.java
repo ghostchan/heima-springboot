@@ -23,5 +23,6 @@ public class UserService {
         System.out.println("新增用户...");
         //选择性新增，如果属性为空则该属性不会出现在insert语句上
         userMapper.insertSelective(user);
+        int i = 1 / 0;
     }
 }
