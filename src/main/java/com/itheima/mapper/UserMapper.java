@@ -1,4 +1,7 @@
 package com.itheima.mapper;
 
-public interface UserMapper {
+import com.itheima.pojo.User;
+import tk.mybatis.mapper.common.Mapper;
+
+public interface UserMapper extends Mapper<User> {
 }
